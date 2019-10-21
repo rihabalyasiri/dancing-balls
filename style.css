@@ -1,0 +1,112 @@
+.box {
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: first 8s  infinite; 
+    
+}
+
+
+.box-1 {
+    background: red;
+    z-index: 4;
+  
+    /* animation-fill-mode: backwards; */
+    
+}
+
+.box-2 {
+    background: yellow;
+    animation-delay: 2s;
+    /* animation-fill-mode: backwards;
+} */
+}
+
+.box-3 {
+    background: green;
+    animation-delay: 4s;
+    /* animation-fill-mode: backwards; */
+}
+
+.box-4 {
+    background: blue;
+    animation-delay: 6s;
+    /* animation-fill-mode: backwards; */
+}
+
+@keyframes first {
+    0%,100% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translatex(400px);
+        background: #000;
+    }
+    50% {
+        transform: translate(400px,400px);
+        background: orange;
+    }
+    75% {
+        transform: translate(0,400px);
+        background: rgb(53, 147, 170);
+    }
+}
+
+/* @keyframes second {
+    0%,100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(400px);
+        background: #000;
+    }
+    50% {
+        transform: translate(400px,400px);
+        background: orange;
+    }
+    
+}
+
+@keyframes third {
+    0%,100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(400px);
+        background: #000;
+    }
+    
+    
+}
+
+@keyframes fourth {
+    0%,100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(400px);
+        background: #000;
+    }
+    
+    
+}
+
+@keyframes circling {
+    0%,100% {
+       
+    }
+    25% {
+       
+    }
+    50% {
+        
+    }
+    75% {
+       
+    }
+} */
+
